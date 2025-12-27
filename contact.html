@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Angel Wings Creative Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="css/images/ANGEL WINGS UMBRELLA.png" alt="Angel Wings Creative Agency" class="logo-image">
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>Ready to elevate your brand? Let's discuss your project and bring your vision to life</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section>
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Our Studio</h3>
+                            <p>Mityana Njagala Arcade</p>
+                            <p>Mityana, Uganda</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone Number</h3>
+                            <p>0703495916</p>
+                            <p>Mon-Fri: 9am-6pm</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Address</h3>
+                            <p>smithlewis@gmail.com</p>
+                            <p>We respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Business Hours</h3>
+                            <div class="business-hours">
+                                <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</p>
+                                <p><strong>Saturday:</strong> 10:00 AM - 4:00 PM</p>
+                                <p><strong>Sunday:</strong> Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Let's Chat</h3>
+                            <p>Prefer to chat directly?</p>
+                            <p>We're available on WhatsApp during business hours</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2 class="form-title">Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" class="form-control">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" class="form-control" required>
+                                <option value="">Select a service</option>
+                                <option value="branding">Branding & Identity</option>
+                                <option value="digital">Digital Graphics</option>
+                                <option value="printing">Professional Printing</option>
+                                <option value="packaging">Packaging Design</option>
+                                <option value="marketing">Marketing Materials</option>
+                                <option value="illustration">Custom Illustrations</option>
+                                <option value="package">Full Package</option>
+                                <option value="consultation">Consultation</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Project Budget (Optional)</label>
+                            <select id="budget" class="form-control">
+                                <option value="">Select budget range</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="1000-2500">$1,000 - $2,500</option>
+                                <option value="2500-5000">$2,500 - $5,000</option>
+                                <option value="5000+">$5,000+</option>
+                                <option value="not-sure">Not sure yet</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" class="form-control" placeholder="Tell us about your project, goals, and timeline..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Our Studio</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Mityana Njagala Arcade</h3>
+                    <p>Visit our studio in Mityana for a face-to-face consultation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">How soon can you start my project?</h3>
+                    <p>We can typically start within 1-3 business days after project confirmation and deposit. Rush projects may be accommodated depending on our current workload.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer free consultations?</h3>
+                    <p>Yes, we offer complimentary 30-minute consultations to discuss your project requirements, goals, and provide initial recommendations.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What is your payment process?</h3>
+                    <p>We require a 50% deposit to begin work, with the balance due upon project completion. For larger projects, we can arrange milestone-based payments.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you work with international clients?</h3>
+                    <p>Absolutely! We work with clients worldwide. Communication is primarily through email, video calls, and project management tools.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I see examples of similar projects?</h3>
+                    <p>Yes, we'll share relevant portfolio pieces during our consultation that match your industry and project requirements.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">What file formats do you deliver?</h3>
+                    <p>We provide all final files in the required formats for both digital and print use, including source files when applicable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact us today for a free consultation and let's discuss how we can help elevate your brand</p>
+            <a href="tel:0703495916" class="btn btn-primary">Call Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo-section">
+                        <img src="css/images/ANGEL WINGS UMBRELLA.png" alt="Angel Wings Creative Agency" class="footer-logo">
+                        <p>Elevating brands through exceptional design and printing services since 2018.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Branding & Identity</a></li>
+                        <li><a href="services.html">Print Design</a></li>
+                        <li><a href="services.html">Packaging Design</a></li>
+                        <li><a href="services.html">Digital Graphics</a></li>
+                        <li><a href="services.html">Large Format Printing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Mityana Njagala Arcade</li>
+                        <li><i class="fas fa-phone"></i> 0703495916</li>
+                        <li><i class="fas fa-envelope"></i> smithlewis@gmail.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9am-6pm</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Angel Wings Creative Agency. All rights reserved.</p>
+                <p class="credit">Designed and maintained by <strong>Covenant Tech Solution LTD</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const mainNav = document.querySelector('.main-nav ul');
+            
+            if (mobileMenu && mainNav) {
+                mobileMenu.addEventListener('click', function() {
+                    mainNav.classList.toggle('active');
+                });
+            }
+
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.main-nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mainNav) {
+                        mainNav.classList.remove('active');
+                    }
+                });
+            });
+
+            // Contact Form Submission
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form data
+                    const formData = new FormData(this);
+                    const name = document.getElementById('name').value;
+                    
+                    // Show success message
+                    alert(`Thank you ${name}! Your message has been sent successfully. We will get back to you within 24 hours.`);
+                    
+                    // Reset form
+                    this.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
